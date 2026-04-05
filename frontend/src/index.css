@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-link{
+  margin-left:30px;
+}
+.footer-link{
+  display: block;
+  text-decoration :none;
+  color:grey;
+}
+.linkTicket a{
+  text-decoration:none;
+  line-height: 2rem;
+}
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+
+#supportHero a{
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content:space-between;
+  margin: 0 300px;
+}
+
+#supportHero input{
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.signuppage{
+  height: 430px;
+  width:430px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+.signup-container{
+  height: 100vh;              /* full screen height */
+  display: flex;              
+  justify-content: center;    /* center horizontally */
+  align-items: center; 
+}
+
+.login{
+  height: 300px;
+  width:250px;
+  border:2px solid black;
+  background-color: white;
+  border-radius: 5%;
+
+}
+.login-container{
+  height: 100vh;              /* full screen height */
+  display: flex;              
+  justify-content: center;    /* center horizontally */
+  margin-top: 5%;
+}
